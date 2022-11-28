@@ -9,8 +9,8 @@ public:
         vector<int>rr;
         for(i=s.begin(); i!=s.end();i++){
             auto j=s.find(target-*i);
-            if(j==s.end() || i==j || u[make_pair(*i,*j)] || u[make_pair(*j,*i)] )continue;
-            
+            if(j==s.end() || i==j )continue;
+            if( u[make_pair(*i,*j)] || u[make_pair(*j,*i)]) continue;
             rr.push_back(*i);
             rr.push_back(*j);
             u[make_pair(*i,*j)]=u[make_pair(*j,*i)]=1;
