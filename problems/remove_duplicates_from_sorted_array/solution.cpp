@@ -9,14 +9,11 @@ public:
         for(  ;  j<len ; ){
 
             if(nums[i-1]<nums[j]){
-                swap(nums[i],nums[j]);
-                i++;
-                ans++;
-                j=i;
+                nums[i]=nums[j];
+                i++;ans++; j=i;
             }
-            else{
-                j++;
-            }
+            else j++;
+            
         }
         return ans;
     }
