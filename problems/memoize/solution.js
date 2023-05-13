@@ -3,16 +3,11 @@
  */
 function memoize(fn) {
         
-   const cache = {};
+   const u=new Map()
    return function(...args) {
     const key = JSON.stringify(args);
-    if (key in cache) {
-      return cache[key];
-    }
-    const result = fn.apply(this, args);
-    cache[key] = result;
-    
-    return result;
+    return u.has(key) ?  u.get(key): u.set(key,fn.apply(this, args)).get(key);
+
   }
   
 }
