@@ -14,17 +14,12 @@ public:
         ListNode *Prev,*Cur;
         Prev=head; Cur=head;
         while(Cur!=NULL){
-           if(Cur== head){Cur=head->next;continue;}
            if(Prev->val == Cur->val){
-                while(Cur->next!=NULL and Cur->val== Cur->next->val)
-                {Cur=Cur->next;}
+               while(Cur->next!=NULL and Cur->val== Cur->next->val)Cur=Cur->next;
                Prev->next=Cur->next;
            }
            Cur=Cur->next;
            Prev=Prev->next;
-           if(Prev==Cur ){
-               if(Cur && Cur->next!=NULL)Cur=Cur->next;
-           }
         }
         return head;
     }
