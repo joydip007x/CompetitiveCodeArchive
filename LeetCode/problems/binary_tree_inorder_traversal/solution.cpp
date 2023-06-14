@@ -14,11 +14,9 @@ public:
     vector<int>glob;
     void recTraverse(TreeNode* root){
         if(root==NULL) return;
-
         recTraverse(root->left);
         glob.push_back(root->val);
         recTraverse(root->right);
-        
     }
     vector<int> inorderTraversal(TreeNode* root) {
         recTraverse(root);
