@@ -1,0 +1,35 @@
+#include <cstdio>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+const int numCoins = 11;
+int coins[] = {10000, 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5};
+
+const int SIZE = 30001;
+long long possible[SIZE];
+
+int main()
+{
+    ///possible[0] = 1;
+    sort(coins , coins+11);
+    for (int c = 0; c < numCoins; ++c)
+    {
+        possible[coins[c] ]+=1;
+
+        int end = SIZE - coins[c];
+        for (int i = 0; i < end; ++i)
+        {
+            if(i==50) cout<<"pos["<<i<<"+"<<coins[c]<<"]="<<possible[i + coins[c]]<<"+"<<possible[i]<<" coin "<<coins[c]<<endl;
+            possible[i + coins[c]] += possible[i];
+        }
+    }
+
+    double num;
+
+    while (scanf("%lf", &num), num>1e-9  )
+    {
+        long long int x=(int)(num*100+ 1e-9);
+        printf("%6.2f%17lld\n", num, possible[x]);
+    }
+}
