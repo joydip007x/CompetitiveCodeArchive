@@ -3,15 +3,13 @@
 <!-- SECTION START -->
 <details  close>
 <summary > 
-    
+  
 ### Codeforces
 </summary>
 <p align="center"  >
     
 -  [Handle: joydip007x](https://codeforces.com/profile/joydip007x)
 -  650+ Solves
-  <br>
-
   - [![](https://raw.githubusercontent.com/joydip007x/cf-stats/main/output/max_rating.svg)](https://codeforces.com/profile/joydip007x)
   
     ![](https://raw.githubusercontent.com/joydip007x/cf-stats/main/output/light_card.svg#gh-dark-mode-only)
@@ -20,7 +18,6 @@
 </details>
 <!-- SECTION END -->
 <!-- SECTION START -->
-
 <details close >
 <summary > 
     
@@ -30,9 +27,7 @@
     
 -  [id : joydip007x ](https://leetcode.com/joydip007x)
 -  50+ Solves
- <br>
-
-   ![](https://leetcard.jacoblin.cool/joydip007x?ext=heatmap&show_rank=false&theme=dark)
+![](https://leetcard.jacoblin.cool/joydip007x?ext=heatmap&show_rank=false&theme=dark)
   <!-- <br></br> -->
   <!-- [![LeetCode user cascandaliato](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fjoydip007x&logo=leetcode&logoColor=blue)](https://leetcode.com/joydip007x/) -->
 
@@ -47,7 +42,7 @@
 ### SPOJ
 </summary>
 <p align="center"  >
-    
+
 -  [Username: joydip007x](https://www.spoj.com/users/joydip007x/)
 -  50+ Solves     
 </p>
@@ -66,11 +61,9 @@
 -  40+ Solves
 -  Certifications :
 
-  
     [![](https://raw.githubusercontent.com/nathan-abela/HackerRank-Solutions/master/Badges/problem_solving_basic_skill.png)](https://www.hackerrank.com/certificates/461dfdd32ce3)
 [![](https://raw.githubusercontent.com/nathan-abela/HackerRank-Solutions/master/Badges/python_basic_skill.png)](https://www.hackerrank.com/certificates/70294e113405)
 [![](https://raw.githubusercontent.com/nathan-abela/HackerRank-Solutions/master/Badges/sql_basic_skill.png)](https://www.hackerrank.com/certificates/9555b4f78e4d)
-  
 </p>
 </details>
 <!-- SECTION END -->
@@ -89,7 +82,6 @@
 </details>
 <!-- SECTION END -->
 <!-- SECTION START -->
-
 <details  close>
 <summary > 
     
@@ -110,7 +102,7 @@
 ### CodeChef
 </summary>
 <p align="center"  >
-    
+   
 -  [Handle: joydip007x](https://www.codechef.com/users/joydip007x)
 -  30+ Solves   
 </p>
@@ -122,7 +114,6 @@
 
 <!-- SECTION END -->
 
-<br></br>
 
 <p align="center"  >
     
