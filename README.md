@@ -1,5 +1,6 @@
 
-## Problem Solving 
+# ❤️ CP Archive ❤️ <br>[  # ![StopStalk](https://img.shields.io/badge/StopStalk-joydip007x-blue)](https://www.stopstalk.com/user/profile/joydip007x)
+
 <!-- SECTION START -->
 <details  close>
 <summary > Codeforces</summary>
@@ -96,9 +97,7 @@
 
 <p align="center"  >
     
-  # [# ![StopStalk](https://img.shields.io/badge/StopStalk-joydip007x-blue)](https://www.stopstalk.com/user/profile/joydip007x)
 
-  🙂 Updated on - 15-06-2023 <br>
-  🙂 Will Update This repo Manually , after reaching some milestones.
+  > **Note**🙂 Updated on - 15-06-2023 . Will update this repo manually , after reaching some Milestones.
 </p>
 
