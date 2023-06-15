@@ -2,25 +2,20 @@
 ## Problem Solving 
 <!-- SECTION START -->
 <details  close>
-<summary > 
+<summary > Codeforces</summary>
+<p align="center"  >  
   
-### Codeforces
-</summary>
-
 -  [Handle: joydip007x](https://codeforces.com/profile/joydip007x)
 -  650+ Solves
   - [![](https://raw.githubusercontent.com/joydip007x/cf-stats/main/output/max_rating.svg)](https://codeforces.com/profile/joydip007x)
   
     ![](https://raw.githubusercontent.com/joydip007x/cf-stats/main/output/light_card.svg#gh-dark-mode-only)
-
+</p>
 </details>
 <!-- SECTION END -->
 <!-- SECTION START -->
 <details close >
-<summary > 
-    
-### Leetcode
-</summary>
+<summary > Leetcode</summary>
 <p align="center"  >
     
 -  [id : joydip007x ](https://leetcode.com/joydip007x)
@@ -36,10 +31,7 @@
 <!-- SECTION START -->
 
 <details  close>
-<summary > 
-    
-### SPOJ
-</summary>
+<summary > SPOJ</summary>
 <p align="center"  >
 
 -  [Username: joydip007x](https://www.spoj.com/users/joydip007x/)
@@ -50,10 +42,7 @@
 <!-- SECTION START -->
 
 <details  close>
-<summary > 
-    
-### HackerRank
-</summary>
+<summary > HackerRank</summary>
 <p align="center"  >
     
 -  [Handle: joydip007x](https://www.hackerrank.com/joydip007x)
@@ -69,10 +58,7 @@
 <!-- SECTION START -->
 
 <details  close>
-<summary > 
-    
-### UVa
-</summary>
+<summary > UVa</summary>
 <p align="center"  >
     
 -  [Username: joydip007x](https://uhunt.onlinejudge.org/id/946276)
@@ -82,10 +68,7 @@
 <!-- SECTION END -->
 <!-- SECTION START -->
 <details  close>
-<summary > 
-    
-### Lightoj
-</summary>
+<summary >Lightoj</summary>
 <p align="center"  >
     
 -  [Handle: joydip007x](https://lightoj.com/user/joydip007x)
@@ -96,10 +79,7 @@
 <!-- SECTION START -->
 
 <details  close>
-<summary > 
-    
-### CodeChef
-</summary>
+<summary >CodeChef</summary>
 <p align="center"  >
    
 -  [Handle: joydip007x](https://www.codechef.com/users/joydip007x)
