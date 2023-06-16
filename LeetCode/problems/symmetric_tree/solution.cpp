@@ -14,7 +14,7 @@ public:
     bool trav(TreeNode* root1,TreeNode* root2){
         if(root1==NULL || root2==NULL )return root1==root2;
         if(root1->val != root2->val)   return false;
-        return trav(root1->left,root2->right) && trav(root1->right,root2->left) ;
+        return  trav(root1->right,root2->left) && trav(root1->left,root2->right) ;
     }
     bool isSymmetric(TreeNode* root) {
         return  trav(root->left,root->right); 
