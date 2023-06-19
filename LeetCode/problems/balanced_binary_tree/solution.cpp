@@ -16,13 +16,10 @@ public:
         if(root==NULL)return 0;
         int x=1+rec(root->left);
         int y=1+rec(root->right);
-        // cout<<" ROOT "<<root->val<<" :  {x,y }:{"<<x<<","<<y<<"}\n";
-        if(abs(x-y)>1) return -999999;
-        return max(x,y);
+        return (abs(x-y)>1)?  -999999 : max(x,y);
     }
     bool isBalanced(TreeNode* root) {
         int p= rec(root);
-        // cout<<p<<endl;
         return p>=0;
     }
 };
