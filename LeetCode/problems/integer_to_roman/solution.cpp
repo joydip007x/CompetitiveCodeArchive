@@ -7,15 +7,10 @@ public:
 
     string getExp(int x){
            
-       string ret="";
-       int base=(int)pow(10,(int)log10(x));
-       int y=x,cnt=0;
-       while(!u[x].length()){x=x-base; cnt++;}
-       cout<<" BASE "<<base<<" FOR "<<y<<" REMAINS "<<x<<" c"<<cnt<<endl;
-       ret+=u[x];
-       while(cnt--)ret+=u[base];
-       y=y-x;
-       return ret;
+       string ret2="";
+       int base=(int)pow(10,(int)log10(x)),cnt=0;
+       while(!u[x].length()){x=x-base; ret2+=u[base];}
+       return u[x]+ret2;
         
     }
     string intToRoman(int num) {
@@ -25,13 +20,10 @@ public:
         for(int i=0; i<len ; i++){
             int y=num-(num% (int)pow(10,len-i-1) )-pre;
             pre+=y;
-            cout<<"y:"<<y<<" : "<<u[y]<<endl;
             if(u[y].length()) ans+=u[y];
             else{
                 if(!y)continue;
-                string g=getExp(y);
-                ans+=g;
-                cout<<"NF: "<<y<<" : "<<g<<endl;
+                ans+=getExp(y);
             }
         }
         return ans;
