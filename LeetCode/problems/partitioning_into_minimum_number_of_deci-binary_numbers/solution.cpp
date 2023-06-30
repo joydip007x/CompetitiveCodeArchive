@@ -1,8 +1,8 @@
 class Solution {
 public:
     int minPartitions(string n) {
-     
-        sort(n.begin(),n.end());
-        return n[n.length()-1]-48;
+        int x=0;
+        for(const auto& i:n)x=max(x,i-'0');
+        return x;
     }
 };
