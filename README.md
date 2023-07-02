@@ -20,7 +20,7 @@
 <p align="center"  >
     
 -  [id : joydip007x ](https://leetcode.com/joydip007x)
--  50+ Solves
+-  70+ Solves
   
     ![](https://leetcard.jacoblin.cool/joydip007x?ext=heatmap&show_rank=false&theme=dark)
   <!-- <br></br> -->
@@ -95,9 +95,9 @@
 <!-- SECTION END -->
 
 
-<p align="center"  >
     
   > https://www.stopstalk.com/user/profile/joydip007x <br>
-  > **Note**🙂 Updated on - 15-06-2023 . Will update this repo manually , after reaching some Milestones.
-</p>
+  
+ > **Note**  Updated on - 15-06-2023 . Will update this repo manually , after reaching some Milestones.
+
 
