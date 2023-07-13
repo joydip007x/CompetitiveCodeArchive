@@ -7,7 +7,6 @@ public:
     }
     tail->next = headA;
     ListNode *fast = headB, *slow = headB;
-
     while(fast && fast->next){
         slow = slow->next;
         fast = fast->next->next;
