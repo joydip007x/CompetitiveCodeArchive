@@ -18,9 +18,13 @@ TimeLimitedCache.prototype.set = function(key, value, duration) {
         return true;
     }
     else{
+       // console.log('1:',new Date(),':',key,":",value,":",duration)
         this.cache[key]={
             value:value,
-            timer:setTimeout(()=>{delete this.cache[key] },duration)
+            timer:setTimeout(()=>{ 
+               // console.log('2:',new Date(),':',key,":",value,":",duration)
+
+                delete this.cache[key] },duration)
         }
         return false;
     }
