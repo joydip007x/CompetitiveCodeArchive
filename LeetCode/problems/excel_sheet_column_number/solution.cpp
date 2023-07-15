@@ -9,8 +9,8 @@ public:
             sum+=ml;
         }
         ans=sum;
-        for(int i=0;i<tar;i++){
-            int x=columnTitle[i]-65+1;
+        for(const auto& i:columnTitle){
+            int x=i-65+1;
             ans+=((x-1)*ml);
             ml=ml/26;
         }
