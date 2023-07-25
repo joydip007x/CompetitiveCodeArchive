@@ -1,20 +1,22 @@
 class Solution {
+private:
+    int nextNumber(int n){
+        int newNumber = 0;
+        while(n!=0){
+            int num = n%10;
+            newNumber += num*num;
+            n = n/10;
+        }
+        return newNumber;
+    }
 public:
     bool isHappy(int n) {
-        while(n>9){
-            int sum = 0;
-            int m = n;
-            while(m>0){
-                int a = m%10;
-                sum+= (a*a);
-                m/=10;
-            }
-            n = sum;
+        int slowPointer = n;
+        int fastPointer = nextNumber(n);
+        while(fastPointer != 1 && fastPointer != slowPointer){
+            slowPointer = nextNumber(slowPointer);
+            fastPointer = nextNumber(nextNumber(fastPointer));
         }
-        if(n == 1  || n == 7 ){
-            return true;
-        }
-        return false;
-        
+        return fastPointer==1;
     }
 };
