@@ -14,7 +14,7 @@ class Solution
             sort(numsP.begin(), numsP.end(), [&] (const auto &l, const auto &r)
             {
                 if (l.first == r.first && abs(l.second - r.second) <= k) throw exception();
-                else return (l.first == r.first) ? (l.second < r.second) : (l.first < r.first);
+                else return  (l.first < r.first);
             } );
         }
         catch (...) { return true; }
