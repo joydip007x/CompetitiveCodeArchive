@@ -1,7 +1,10 @@
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
-
+        ios_base::sync_with_stdio(0);
+        cin.tie(NULL);
+        cout.tie(NULL);
+        
         map<int,vector<int>>m;
         int len=nums.size();
         for(int i=0;i<len; i++) m[nums[i]].push_back(i);
