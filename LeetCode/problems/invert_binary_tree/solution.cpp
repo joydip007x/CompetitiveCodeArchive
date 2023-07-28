@@ -11,25 +11,13 @@
  */
 class Solution {
 public:
-
-    void doInvert(TreeNode* root,TreeNode* L,TreeNode* R){
-
-        if(root==NULL || (L==NULL && R==NULL )) return;
-        if(L !=NULL )
-           doInvert(L,(L->left )? L->left : NULL ,(L->right )? L->right: NULL );
-        if(R !=NULL)
-           doInvert(R,(R->left )? R->left:NULL ,(R->right )? R->right:NULL);
-           
-        root->right=L;
-        root->left=R;
-        return ;
-    }
-
     TreeNode* invertTree(TreeNode* root) {
-
-        if(root==NULL) return root;
-        doInvert(root, (root->left!=NULL) ?root->left: NULL ,(root->right) ? root->right: NULL );
+        if(root==NULL)
         return root;
 
+        swap(root->left,root->right);
+        root->left=invertTree(root->left);
+        root->right=invertTree(root->right);
+        return root;
     }
 };
