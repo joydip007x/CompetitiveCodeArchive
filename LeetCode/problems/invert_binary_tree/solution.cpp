@@ -15,15 +15,11 @@ public:
     void doInvert(TreeNode* root,TreeNode* L,TreeNode* R){
 
         if(root==NULL || (L==NULL && R==NULL )) return;
-        if(L !=NULL ){   
-            doInvert(L,(L->left !=NULL )? L->left : NULL ,(L->right !=NULL )? L->right: NULL );
-            
-        }
-
-        if(R !=NULL){
-           doInvert(R,(R->left !=NULL )? R->left:NULL ,(R->right !=NULL )? R->right:NULL);
+        if(L !=NULL )
+           doInvert(L,(L->left )? L->left : NULL ,(L->right )? L->right: NULL );
+        if(R !=NULL)
+           doInvert(R,(R->left )? R->left:NULL ,(R->right )? R->right:NULL);
            
-        }
         root->right=L;
         root->left=R;
         return ;
