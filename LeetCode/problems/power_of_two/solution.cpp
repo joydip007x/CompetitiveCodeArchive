@@ -1,9 +1,7 @@
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
-        //https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
-        unsigned long long x=n;
-        x= (n==0) | x&(x-1);
-        return !x;
+        if(n==0) return false;
+        return ((n==1) || (n%2==0 && isPowerOfTwo(n/2)));
     }
 };
